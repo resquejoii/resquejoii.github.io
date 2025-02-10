@@ -1,0 +1,85 @@
+* {
+    top: 100%;
+    box-sizing: border-box;
+}
+
+.MonSun, .box {
+    float: left;
+    width: 50%;
+    height: 300px;
+    padding: 150px;
+    
+}
+.Monday, .Tuesday, .Wednesday, .Thursday, .Friday, .Saturday, .Sunday {
+    position:absolute;	
+    height: 350px;
+    width: 350px;
+    border: 10px solid;
+    margin-top: 100px;
+    top:-450px;
+}		
+
+            .Monday{
+                border-color:gray;
+                background:gray;
+            }
+            .Tuesday{
+                border-color:violet;
+                background:violet;
+            }
+            .Wednesday{
+                border-color:orange;
+                background:orange;
+            }
+            .Thursday{
+                border-color:purple;
+                background:purple;
+            }
+            .Friday{
+                border-color:yellow;
+                background:yellow;
+            }
+            .Saturday{
+                border-color:brown;
+                background:brown;
+            }
+            .Sunday{
+                border-color:green;
+                background:green;
+            }
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+button {
+    display: block;
+    padding: 10px;
+    width: 150px;
+    margin: 20px;
+}
+button:hover {
+    padding: 20px;
+    width: 170px;
+    box-shadow: 0 0 15px 3px;
+    transition: 0.5s;
+}
+@keyframes moving{
+    0%{
+        top:-450px;
+    }
+    100%{
+        background-color:white;
+        top:100px;
+    }
+}
+@keyframes flying{
+    0%{
+        background-color:white;
+        top:100px;
+    }
+    100%{
+        top:-450px;
+    }
+}
