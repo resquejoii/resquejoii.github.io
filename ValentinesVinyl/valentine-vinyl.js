@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
           } else {
             vinyl.style.animation = "";
 
-            audio.pause();
+            audio.pause();  
 
             playButton.textContent = "Play";
             isPlaying = false;
