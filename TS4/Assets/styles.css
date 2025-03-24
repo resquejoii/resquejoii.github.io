@@ -1,0 +1,375 @@
+body {
+  background-image: url(img/backgroundd.jpg);
+  background-repeat: no-repeat;
+  background-attachment:initial;
+  background-size: cover;
+  overflow: hidden;
+}
+.btn-main{
+  float: right;
+  background-color: #f6d700;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button1 {
+  background-color: #000; 
+  color: #fff; 
+  border: 2px solid #f6d700;
+}
+
+.button1:hover {
+  background-color: #f6d700;
+  color: black;
+}
+
+.btn-invi{
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  border:none;
+}
+.sign{
+  margin-top: -80px;
+  border-color: #f6d700;
+  border-width: 2px;
+  width: 100%;
+  height: 190%;
+  background-image: url(img/bgbg.jpg);
+  background-size: cover;
+  border: solid;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  font-family:cambria;
+  color: #000;
+  background-color: #000;
+  font-size: 27px;
+}
+
+.containerz {
+    display: grid;
+    margin-left: 19%;
+    margin-top: 5%;
+  }
+  
+  .content1{ 
+    background-image: url(img/burgerr.jpg);
+    background-repeat: no-repeat;
+    background-attachment:initial;
+    background-size: cover;
+    display:block;
+    visibility: visible;
+    opacity: 0;
+    position: relative;
+    grid-area: 1 / 1;
+  }
+  .content2{ 
+    background-image: url(img/sliceofpizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+    visibility: visible;
+    opacity: 0;
+    position: relative;
+    grid-area: 1 / 1;
+  }
+  .content3{
+    background-image: url(img/sausage.jpg);
+    width: 100%;
+    height: 200%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    visibility: visible;
+    opacity: 0;
+    position: relative;
+    grid-area: 1 / 1;
+  }
+  
+  .content4{
+    background-image: url(img/pita.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+    visibility: visible;
+    opacity: 0;
+    position: relative;
+    grid-area: 1 / 1;
+  }
+  .content5{
+    display:block;
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    grid-area: 1 / 1;
+  }
+
+.burger{
+    border: black solid;
+    border-radius: 4px;
+    height: 500px;
+    width: 100px;
+    position: relative;
+    display: block;
+    background-image: url(img/burgerr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.burgerlabel{
+    background-color: yellow;
+    color:black;
+    height: 40px;
+    width: auto;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.burgerspan{
+    margin-top: 250px;
+    background-color: #f6d700;
+    opacity: 1;
+    display: block;
+    font-size: 18px;
+}
+
+.burgerinfo{
+    background-color: #f6d700;
+    display: none;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 275px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+
+}
+
+
+#box1:hover .burgerinfo{
+  display: block;
+}
+#box1:hover .burgerspan{
+  display: none;
+}
+
+        
+        .pizza{
+          border: black solid;
+          border-radius: 4px;
+          height: 500px;
+          width: 100px;
+          position: relative;
+          display: block;
+          background-image: url(img/sliceofpizza.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .pizzalabel{
+          background-color: #f6d700;
+          color:black;
+          height: 40px;
+          width: auto;
+          font-weight: bolder;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 18px;
+        }
+
+        .pizzaspan{
+          margin-top: 250px;
+          background-color: #f6d700;
+          opacity: 1;
+          display: block;
+          font-size: 18px;
+        }
+
+        .pizzainfo{
+          background-color: #f6d700;
+          display: none;
+          justify-content: center;
+          width: 100%;
+          height: auto;
+          margin-top: 275px;
+          text-align: center;
+          font-family: 'Times New Roman', Times, serif;
+          color:black;
+
+        }
+
+
+        #box2:hover .pizzainfo{
+        display: block;
+        }
+        #box2:hover .pizzaspan{
+        display: none;
+        }
+
+                
+                .sausage{
+                  border: black solid;
+                  border-radius: 4px;
+                  height: 500px;
+                  width: 100px;
+                  position: relative;
+                  display: block;
+                  background-image: url(img/sausage.jpg);
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                }
+                .sauslabel{
+                  background-color: #f6d700;
+                  color:black;
+                  height: 40px;
+                  width: auto;
+                  font-weight: bolder;
+                  font-family: 'Times New Roman', Times, serif;
+                  font-size: 18px;
+                }
+
+                .sausspan{
+                  margin-top: 250px;
+                  background-color: #f6d700;
+                  opacity: 1;
+                  display: block;
+                  font-size: 18px;
+                }
+
+                .sausinfo{
+                  background-color: #f6d700;
+                  display: none;
+                  justify-content: center;
+                  width: 100%;
+                  height: auto;
+                  margin-top: 275px;
+                  text-align: center;
+                  font-family: 'Times New Roman', Times, serif;
+                  color:black;
+                }
+
+
+                #box3:hover .sausinfo{
+                display: block;
+                }
+                #box3:hover .sausspan{
+                display: none;
+                }
+                        
+                        .pita{
+                          border: black solid;
+                          border-radius: 4px;
+                          height: 500px;
+                          width: 100px;
+                          position: relative;
+                          display: block;
+                          background-image: url(img/pita.jpg);
+                          background-repeat: no-repeat;
+                          background-size: cover;
+                        }
+                        .pitalabel{
+                          background-color: #f6d700;
+                          color:black;
+                          height: 40px;
+                          width: auto;
+                          font-weight: bolder;
+                          font-family: 'Times New Roman', Times, serif;
+                          font-size: 18px;
+                        }
+
+                        .pitaspan{
+                          margin-top: 250px;
+                          background-color: #f6d700;
+                          opacity: 1;
+                          display: block;
+                          font-size: 18px;
+                        }
+
+                        .pitainfo{
+                          background-color: #f6d700;
+                          display: none;
+                          justify-content: center;
+                          width: 100%;
+                          height: auto;
+                          margin-top: 275px;
+                          text-align: center;
+                          font-family: 'Times New Roman', Times, serif;
+                          color:black;
+
+                        }
+
+
+                        #box4:hover .pitainfo{
+                        display: block;
+                        }
+                        #box4:hover .pitaspan{
+                        display: none;
+                        }
+
+                                    
+                                    .burgerinfonext{
+                                      border-color: black;
+                                      border-width: 2px;
+                                      border: solid;
+                                      background-color: #e4dfbc;
+                                      opacity: 80%;
+                                      align-items: center;
+                                      margin-top: 10%;
+                                      margin-left: 15%;
+                                      width: 70%;
+                                      height: 70%;
+                                      font-size: large;
+                                    }
+
+                                   
+                                    .pizzainfonext{
+                                      border-color: black;
+                                      border-width: 2px;
+                                      border: solid;
+                                      background-color: #e4dfbc;
+                                      opacity: 80%;
+                                      align-items: center;
+                                      margin-top: 10%;
+                                      margin-left: 15%;
+                                      width: 70%;
+                                      height: 70%;
+                                      font-size: large;
+                                    }
+
+                                    
+                                    .sausinfonext{
+                                      border-color: black;
+                                      border-width: 2px;
+                                      border: solid;
+                                      background-color: #e4dfbc;
+                                      opacity: 80%;
+                                      align-items: center;
+                                      margin-top: 10%;
+                                      margin-left: 15%;
+                                      width: 70%;
+                                      height: 70%;
+                                      font-size: large;
+                                    }
+
+                                    
+                                    .pitainfonext{
+                                      border-color: black;
+                                      border-width: 2px;
+                                      border: solid;
+                                      background-color: #e4dfbc;
+                                      opacity: 80%;
+                                      align-items: center;
+                                      margin-top: 10%;
+                                      margin-left: 15%;
+                                      width: 70%;
+                                      height: 70%;
+                                      font-size: large;
+                                    }
